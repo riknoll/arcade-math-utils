@@ -1,4 +1,8 @@
 namespace mathUtils {
+    //% blockId=mathUtils_lineIntersectsLine
+    //% block="point where line $line1Start to $line1End intersects line $line2Start to $line2End"
+    //% group=Intersections
+    //% weight=100
     export function lineIntersectsLine(
         line1Start: util.Point,
         line1End: util.Point,

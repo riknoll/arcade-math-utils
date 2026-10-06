@@ -87,8 +87,8 @@ namespace mathUtils {
     //% group=Vectors
     //% weight=100
     //% blockGap=8
-    export function getVectorComponent(v: util.Point, component: VectorComponent) {
-        return component === VectorComponent.X ? v.x : v.y;
+    export function getVectorComponent(vector: util.Point, component: VectorComponent) {
+        return component === VectorComponent.X ? vector.x : vector.y;
     }
 
     //% blockId=mathUtils_setVectorComponent
@@ -97,12 +97,12 @@ namespace mathUtils {
     //% vector.defl=myVector
     //% group=Vectors
     //% weight=90
-    export function setVectorComponent(v: util.Point, component: VectorComponent, value: number) {
+    export function setVectorComponent(vector: util.Point, component: VectorComponent, value: number) {
         if (component === VectorComponent.X) {
-            v.x = value;
+            vector.x = value;
         }
         else {
-            v.y = value;
+            vector.y = value;
         }
     }
 

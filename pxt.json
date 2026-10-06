@@ -8,7 +8,8 @@
     "files": [
         "main.ts",
         "angles.ts",
-        "vectors.ts"
+        "vectors.ts",
+        "intersections.ts"
     ],
     "preferredEditor": "tsprj"
 }
